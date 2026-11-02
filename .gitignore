@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+app/target/
+*.tsbuildinfo
+.vite/
+
+# Tauri generated files
+app/gen/
+
+# Installers built locally (CI publishes these as release assets)
+*.msi
+*.msix
+*.exe
+*.dmg
+*.AppImage
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+
+# Local-only files
+*.local
+
+# Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / tool output
+coverage/
+graphify-out/
+
+# AI agent tooling (Claude Code, skills)
+.claude/
+.agents/
+skills-lock.json
+CLAUDE.md
